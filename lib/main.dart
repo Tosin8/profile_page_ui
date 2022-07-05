@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:profile_page_ui/stat_widget.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -75,48 +76,9 @@ class _Profile_UiState extends State<Profile_Ui> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Expanded(
-                    child: Column(children: const [
-                  Text('Posts',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18.0,
-                      )),
-                  Text(
-                    '30',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  )
-                ])),
-                Expanded(
-                    child: Column(children: const [
-                  Text('Followers',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18.0,
-                      )),
-                  Text(
-                    '2.5k',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  )
-                ])),
-                Expanded(
-                    child: Column(children: const [
-                  Text('Following',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18.0,
-                      )),
-                  Text(
-                    '76',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                    ),
-                  )
-                ])),
+                statWidget('Posts', '30'),
+                statWidget('Following', '2.5k'),
+                statWidget('Following', '76'),
               ],
             ),
             const SizedBox(height: 18),
