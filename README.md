@@ -1,16 +1,14 @@
 # profile_page_ui
 
-A new Flutter project.
+A new Flutter project showing user profile dashboard. 
 
-## Getting Started
+Shots Below -
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Profile UI - clay](https://user-images.githubusercontent.com/23019300/177283599-c0f7df34-42f2-48fd-a85c-419ffa528505.jpg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+https://user-images.githubusercontent.com/23019300/177283631-adece049-cb11-48f3-88e6-3dbbcba45eb4.mp4
+
